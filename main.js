@@ -41,7 +41,7 @@ document.querySelector('#grupos').innerHTML =
     createGroup("GRUPO C", 
         createNames("Argentina", "SaudiArabia", "Mexico", "Poland", "ARGENTINA", "ARÁBIA SAUDITA", "MÉXICO", "POLÔNIA")) +
 
-    createGroup("GRUPO D", 
+    createGroup("GRUPO D",  
         createNames("France", "Australia", "Denmark", "Tunisia", "FRANÇA", "AUSTRALIA", "DINAMARCA", "TUNISIA")) +
 
     createGroup("GRUPO E", 
