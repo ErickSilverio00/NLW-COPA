@@ -39,7 +39,7 @@ document.querySelector('#grupos').innerHTML =
         createNames("England", "Iran", "USA", "Wales", "INGLATERRA", "IRÃ", "ESTADOS UNIDOS", "PAÍS DE GALES")) +
 
     createGroup("GRUPO C", 
-        createNames("ARGENTINA", "SAUDIARABIA", "MEXICO", "POLAND", "ARGENTINA", "ARÁBIA SAUDITA", "MÉXICO", "POLÔNIA")) +
+        createNames("Argentina", "Saudiarabia", "Mexico", "Poland", "ARGENTINA", "ARÁBIA SAUDITA", "MÉXICO", "POLÔNIA")) +
 
     createGroup("GRUPO D", 
         createNames("FRANCE", "AUSTRALIA", "DENMARK", "TUNISIA", "FRANÇA", "AUSTRALIA", "DINAMARCA", "TUNISIA")) +
