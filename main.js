@@ -59,9 +59,9 @@ document.querySelector('#grupos').innerHTML =
 function createGame(country1, hour, country2) {
     return `
         <li>
-            <img src="assets/icon-${country1}.svg" alt="${country1}" />
+            <img src="./assets/icon-${country1}.svg" alt="${country1}" />
             <strong> ${hour}</strong>
-            <img src="assets/icon-${country2}.svg" alt="${country2}" />
+            <img src="./assets/icon-${country2}.svg" alt="${country2}" />
         </li>
     `
 }
