@@ -12,19 +12,19 @@ function createGroup(group, teams) {
 function createNames(flag1, flag2, flag3, flag4, nome1, nome2, nome3, nome4){
     return `
     <li>
-    <img src="./assets/icon-${flag1}.svg" alt="icon-${flag1}"> 
+    <img src="assets/icon-${flag1}.svg" alt="icon-${flag1}"> 
     <h2><span> ${nome1}</span></h2>
     </li>
     <li>
-    <img src="./assets/icon-${flag2}.svg" alt="icon-${flag2}"> 
+    <img src="assets/icon-${flag2}.svg" alt="icon-${flag2}"> 
     <h2><span> ${nome2}</span></h2>
     </li>
     <li>
-    <img src="./assets/icon-${flag3}.svg" alt="icon-${flag3}"> 
+    <img src="assets/icon-${flag3}.svg" alt="icon-${flag3}"> 
     <h2><span> ${nome3}</span></h2>
     </li>
     <li>
-    <img src="./assets/icon-${flag4}.svg" alt="icon-${flag4}"> 
+    <img src="assets/icon-${flag4}.svg" alt="icon-${flag4}"> 
     <h2><span> ${nome4}</span></h2>
     </li>
 `
