@@ -33,7 +33,7 @@ body.red {
     --card-bg-color: #E1E1E6 ;
     --card-qatar-color: #9a1032;
     --card-white-color: #E1E1E6;
-    --bg: url(./assets/bg-red.svg);
+    --bg: url(assets/bg-red.svg);
 }
 
 body.white {
