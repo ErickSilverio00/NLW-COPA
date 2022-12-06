@@ -117,40 +117,37 @@ main {
 }
 
 .grupo {
-    width: 170px;
-    height: 400px;
+    width: 20em;
+    height: 22em;
     background: var(--card-bg-color); 
     border-bottom: 2px solid var(--card-color-primary); 
     border-radius: 70px;
     padding: 32px 10px; 
+    font-size: 0.7em;
 
 }
 
 .grupo h1 {
     color: var(--card-color-primary);
-    padding: 30px;
+    margin-bottom: 0.3em;
 }
 
 .grupo ul {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    min-width: 10px;
-    max-width: 17px;
     color: #9a1032;
 }
 
 .grupo ul li {
     display: flex;
     align-items: center;
-    justify-content:left;
 
 }
 
 .grupo ul li img {
     margin-right: 20px;
     inline-size: auto;
-    width: 36px;
+    width: 2em;
 }
 
 #cards {
@@ -168,8 +165,6 @@ main {
     background: var(--card-bg-color);
     border-bottom: 2px solid var(--card-color-primary);
     border-radius: 46px;
-    width: 200px;
-    height: 500px;
 }
 
 .card h1 {
@@ -187,15 +182,15 @@ main {
 
 .card h2 {
     display: flex;
-    gap: 16px;
+    gap: 0.8em;
     justify-content: center;
     align-items: center;
-    padding: 8px 16px;
+    padding: 0.4em 0.8em;
     border: 1px solid var(--card-qatar-color);
     border-radius: 6px;
     width: fit-content;
     margin-inline: auto;
-    margin-bottom: 53px;
+    margin-bottom: 2em;
 
     color: #9a1032;
 }
@@ -209,22 +204,22 @@ main {
 .card ul {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 2em;
 }
 
 .card ul li {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
 .card ul li img {
-    width: 36px;
+    width: 3em;
 }
 
 .card ul li + li {
-    padding-top: 24px;
+    padding-top: 1em;
     border-top: 1px solid #9a1032;
 }
 
