@@ -155,28 +155,28 @@ document.querySelector('#cards').innerHTML =
         createGame("Cameroon", "16:00", "Brazil")) +
 
     createCard("OITAVAS DE FINAL", "03/12", "Sábado", 
-            createGame("", "12:00", "") +
-            createGame("", "16:00", "")) +
+            createGame("Netherlands", "12:00", "USA") +
+            createGame("Argentina", "16:00", "Australia")) +
 
     createCard("OITAVAS DE FINAL", "04/12", "Domingo", 
-        createGame("", "12:00", "") +
-        createGame("", "16:00", "")) +    
+        createGame("France", "12:00", "Poland") +
+        createGame("England", "16:00", "Senegal")) +    
 
     createCard("OITAVAS DE FINAL", "05/12", "Segunda", 
-        createGame("", "12:00", "") +
-        createGame("", "16:00", "")) +
+        createGame("Japan", "12:00", "Croatia") +
+        createGame("Brazil", "16:00", "SouthKorea")) +
         
     createCard("OITAVAS DE FINAL", "06/12", "Terça", 
-        createGame("", "12:00", "") +
-        createGame("", "16:00", "")) +  
+        createGame("Morocco", "12:00", "Spain") +
+        createGame("Portugal", "16:00", "Switzerland")) +  
 
     createCard("QUARTAS DE FINAL", "09/12", "Sexta", 
-        createGame("", "12:00", "") +
-        createGame("", "16:00", "")) +
+        createGame("Croatia", "12:00", "Brazil") +
+        createGame("Netherlands", "16:00", "Argentina")) +
 
     createCard("QUARTAS DE FINAL", "10/12", "Sábado", 
         createGame("", "12:00", "") +
-        createGame("", "16:00", "")) +
+        createGame("England", "16:00", "France")) +
 
     createCard("SEMI FINAL", "13/12", "Terça", 
         createGame("", "16:00", "")) +
