@@ -109,7 +109,9 @@ main {
 #grupos {
     display: flex;
     align-items: flex-start;
-    padding: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
     gap: 32px;
     height: auto;
     margin-bottom: 200px;
@@ -121,7 +123,7 @@ main {
     height: 22em;
     background: var(--card-bg-color); 
     border-bottom: 2px solid var(--card-color-primary); 
-    border-radius: 70px;
+    border-radius: 40px;
     padding: 32px 10px; 
     font-size: 0.7em;
 
@@ -154,7 +156,9 @@ main {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    padding: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
     margin-bottom: 200px;
     
 }
@@ -165,6 +169,8 @@ main {
     background: var(--card-bg-color);
     border-bottom: 2px solid var(--card-color-primary);
     border-radius: 46px;
+    height: 38em;
+    width: 20em;
 }
 
 .card h1 {
